@@ -2,13 +2,13 @@
 
 **EconLib** is an open-source project dedicated to formalizing microeconomic theory using the **Lean 4** interactive theorem prover. 
 
-Rooted in the rigorous academic tradition of the **Toulouse School of Economics (TSE)**, this project serves a dual purpose:
+This project serves a dual purpose:
 1. **Educational**: A platform for students to master Lean 4 while reviewing core mathematical economics and microeconomic theorems.
 2. **Infrastructure**: A growing "toolbox" of verified economic definitions and lemmas (e.g., MLRP, Risk Aversion, IC Constraints) that researchers can import and use in their own proofs.
 
 ---
 
-## 🎯 Vision & Goals
+## Vision & Goals
 
 * **Bridge the Gap**: Move beyond "sketched proofs" to fully verified economic logic.
 * **Property-Based Abstraction**: Encode common economic assumptions as **Lean Typeclasses**. Instead of re-proving analytical properties, users can simply declare `[RiskAverse u]` or `[MLRP f g]` and leverage automated deductions.
@@ -16,7 +16,7 @@ Rooted in the rigorous academic tradition of the **Toulouse School of Economics 
 
 ---
 
-## 🏗️ Library Structure
+## Library Structure
 
 The library is organized into modular directories:
 
@@ -27,7 +27,7 @@ The library is organized into modular directories:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### For Lean Provers
 This library depends heavily on [mathlib4](https://github.com/leanprover-community/mathlib4).
@@ -42,7 +42,7 @@ If you are new to Lean but want to contribute:
 
 ---
 
-## 🤝 How to Contribute
+## How to Contribute
 
 We welcome contributions at all levels!
 * **The "Review" Path**: Pick a theorem from a graduate-level textbook (e.g., Mas-Colell) and attempt to prove it in the `Lab/` folder.
@@ -51,7 +51,7 @@ We welcome contributions at all levels!
 
 ---
 
-## 📧 Contact & Community
+## Contact & Community
 * **Maintainer**: Ping-Ju (Ben) Hsieh (Incoming PhD student at TSE)
 * **Discussion**: Join the conversation on the [Lean Zulip Chat](https://leanprover.zulipchat.com/).
 
