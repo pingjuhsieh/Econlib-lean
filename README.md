@@ -49,10 +49,26 @@ We welcome contributions at all levels!
 * **The "Toolbox" Path**: Help us define and bridge economic properties to existing `mathlib` results (e.g., linking `ConcaveOn` to `RiskAversion`).
 * **The "Infrastructure" Path**: Help us improve the automation of common economic derivations (e.g., using `aesop` or `ext` tactics).
 
+## How to Start Practicing
+
+If you are a student (like me) looking to review Micro-Theory while learning Lean 4, we recommend following our **[Roadmap.md](./Roadmap.md)**. 
+
+1. **Pick a Lemma**: Choose a "white box" (unproved) theorem from the roadmap.
+2. **Draft in Lab**: Create a file in `EconLib/Lab/` to draft your proof.
+3. **Refine & Move**: Once the proof is complete and cleaned of `sorry` tags, we will move it to the core `EconLib/` directory.
+
+> **Current Focus**: Formalizing the relationship between **Risk Aversion** and **Utility Concavity**.
+
 ---
 
 ## Contact & Community
 * **Maintainer**: Ping-Ju (Ben) Hsieh (Incoming PhD student at TSE)
 * **Discussion**: Join the conversation on the [Lean Zulip Chat](https://leanprover.zulipchat.com/).
 
-> *"Transforming economic intuition into verified code, one lemma at a time."*
+
+# EconLib: A Lean 4 Library for Economic Theory
+
+![Lean Version](https://img.shields.io/badge/Lean-v4.7.0-blue.svg)
+![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+
