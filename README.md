@@ -1,4 +1,4 @@
-# EconLib: A Lean 4 Library for Formalized Microeconomic Theory
+# EconLib: A Lean 4 Library for Economic Theory
 
 **EconLib** is an open-source project dedicated to formalizing microeconomic theory using the **Lean 4** interactive theorem prover. 
 
